@@ -1,0 +1,9 @@
+#!/bin/bash
+
+mkdir camera
+mkdir raw
+
+mv *.jpg *.JPG camera/
+mv *arw *.ARW raw/
+
+ls -1
